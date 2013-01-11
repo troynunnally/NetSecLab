@@ -46,7 +46,7 @@
           <a class="brand" href="#">NetSecLab</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
+              <a href="<?=base_url();?>index.php/login" class="navbar-link">Login</a>
             </p>
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -69,8 +69,8 @@
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
               <li class="nav-header">Modules</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Start Modules</a></li>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
@@ -84,7 +84,7 @@
         </div><!--/span-->
         <div class="span9">
           <div class="hero-unit">
-            <h1>Hello, world!</h1>
+            <h1>Welcome to NetSeclab!</h1>
             <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
             <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
           </div>
