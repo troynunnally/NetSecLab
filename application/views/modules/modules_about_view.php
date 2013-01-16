@@ -65,18 +65,20 @@
             <ul class="nav nav-list">
               <li class="nav-header">Documentation</li>
               <li class="active"><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              <li><a href="<?=base_url();?>index.php/site/overview">Overview</a></li>
+              <li><a href="<?=base_url();?>index.php/site/rules">Rules</a></li>
               <li class="nav-header">Modules</li>
-              <li><a href="#">About</a></li>
+              <li><a href="#">About Modules</a></li>
               <li><a href="#">Start Modules</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
+              <li><a href="#">Upload Modules</a></li>
               <li class="nav-header">Network Security Repo</li>
               <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li class="nav-header">Resources</li>
+              <li><a href="<?=base_url();?>index.php/site/faq">Frequently Asked Questions (FAQ)</a></li>
+              <li class="nav-header">Publications</li>
+              <li><a href="../assets/files/Design_of_NetSecLab.pdf">Design of NetSecLab</a></li>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
             </ul>
