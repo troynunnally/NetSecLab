@@ -62,7 +62,7 @@
     <div class="container">
 
       <form class="form-signin">
-        <h2 class="form-signin-heading">Please sign in</h2>
+        <h2 class="form-signin-heading">NetSecLab Signin</h2>
         <input type="text" class="input-block-level" placeholder="Email address">
         <input type="password" class="input-block-level" placeholder="Password">
         <label class="checkbox">
@@ -70,6 +70,7 @@
         </label>
         <button class="btn btn-large btn-primary" type="submit">Sign in</button>
       </form>
+      <a href="<?=base_url();?>index.php/site">Skip</a>
 
     </div> <!-- /container -->
 

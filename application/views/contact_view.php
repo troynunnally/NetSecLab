@@ -88,19 +88,25 @@
         </div><!--/span-->
         <div class="span9">
          
-
-              <h1>About NetSecLab</h1>
-              <p> NetSecLab is the NETwork and SECurity Lab in CSC department. NetSecLab is an automated testing environment with the purpose of testing exploits, discovering new vulnerabilities, and collecting new attacks in a controlled environment. In this environment, we can observe interactions between end systems and find new ways to protect communication and network systems. This is because, as individuals and organizations make their information accessible on local networks, mobile
-        networks, and the Internet, defending against malicious attackers has increased in importance.
-        Because of this trend, network administrators must be aware of new attacks and techniques for
-        defending their networks. </p>
-        <p>  ECE 6612 is  Georgia Tech graduate level course that holds a Computer Network Security competition every year in the NetSecLab. etSecLab provides a platform for students
-        to practice attacking and defending Operating Systems (OSs) in real time. The students are given one month of preparation to prepare to harden their systems against attacks and test their boxes on a isolated network against other teams while attacking victim systems (systems on the network that have not been hardened) as well as opposing teams' systems. NetSecLab, apart from providing the participants the resources, will also be collecting attacks for network security researchers.
-        </p>
-        <p/>
-        Click on the links on the homepage to find out more about the rules of the competition and how to register for it!
-
-
+            <h1>Contact Information for NetSecLab</h1>
+            <p>Following are the contact information for NetSecLab: </p>
+            <p> 
+                <b>Dr. John Copeland, </b>
+                <br/> Professor,
+                <br/>School of Electrical and Computer Engineering
+                <br/> Atlanta, Georgia 30332-0250
+                <br/> Phone: (404) 894-5177
+                <br/> Fax: (404) 894-0035
+                <br/> email: john.copeland@ece.gatech.edu
+            </p>
+            <p> 
+                <b> Troy Nunnally, </b> 
+                <br/>  NetSecLab Administrator,
+                <br/>School of Electrical and Computer Engineering
+                <br/> Atlanta, Georgia 30332-0250
+                <br/> Phone: (404) 992-4907
+                <br/> email: troy.nunnally@gatech.edu
+            </p>
 
         </div><!--/span-->
       </div><!--/row-->

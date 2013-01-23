@@ -18,7 +18,7 @@
 }
 
 
-         #presets_selector { background:#ffffff url(demo.gif) no-repeat 3px 60px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding:5px 5px 2px 17px; position:fixed; top:180px; left:5px; }
+         #presets_selector { background:#ffffff url(frontend/assets/demo.gif) no-repeat 3px 60px; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding:5px 5px 2px 17px; position:fixed; top:180px; left:5px; }
         .preset { width:22px; height:22px; margin-bottom:3px; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px;}
         .preset a { display:block; width:20px; height:20px; }
         .ip_2151508606 { display:none; }

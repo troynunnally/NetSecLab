@@ -46,12 +46,12 @@
           <a class="brand" href="#">NetSecLab</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              <a href="<?=base_url();?>index.php/login" class="navbar-link">Login</a>
+              <a href="<?=base_url();?>index.php/login/logout" class="navbar-link">logout</a>
             </p>
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="<?=base_url();?>index.php/site/about">About</a></li>
+              <li><a href="<?=base_url();?>index.php/site/contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -62,17 +62,20 @@
       <div class="row-fluid">
         <div class="span3">
           <div class="well sidebar-nav">
+            
             <ul class="nav nav-list">
               <li class="nav-header">Documentation</li>
-              <li><a href="<?=base_url();?>index.php/site/overview">Overview</a></li>
+              <li><a href="<?=base_url();?>index.php/site/overview">About</a></li>
               <li><a href="<?=base_url();?>index.php/site/rules">Rules</a></li>
+              <li><a href="#">Registration</a></li>
               <li><a href="<?=base_url();?>assets/files/NetSecLab.ppt">Presentation</a></li>
+              <li><a href="#">Frequently Asked Questions (FAQ) </a></li>
               
               <li class="nav-header">Modules</li>
               <li><a href="<?=base_url();?>index.php/modules/">About Modules</a></li>
               <li><a href="<?=base_url();?>index.php/modules/start">Start Modules</a></li>
               <li class="nav-header">Network Security Repo</li>
-              <li><a href="#">Link</a></li>
+              <li><a href="#">About</a></li>
               <li><a href="#">Link</a></li>
               <li><a href="#">Link</a></li>
               <li class="nav-header">Resources</li>
@@ -86,32 +89,38 @@
         <div class="span9">
           <div class="hero-unit">
             <h1>Welcome to NetSeclab!</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+            <p> The purpose of this lab is two fold: harden Linux and to compromise other computers on the lab network. Points is given according to the level of compromise achieved on other boxes and the completion of modules. A report will be required on Wednesday, April 17th for a grade and a bonus given for a high score during the competition. There will be two in-lab competitions: April 8th and 10th. On each date, all teams will be given one hour concurrently to attempt to compromise the other computers including the other teams.</p>
+            <p><a class="btn btn-primary btn-large" href="<?=base_url();?>index.php/site/overview">Learn more &raquo;</a></p>
           </div>
           
           <div class="row-fluid">
             <div class="span4">
               <h2>Competition</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a href="#" class="btn">View details »</a></p>
+              <p>This link includes all the information, documentation and rules required for the competition. Click here to find out more about how to participate and maximize your experience during this journey!</p>
+              
+              <p><a href="<?=base_url();?>index.php/site/overview" class="btn">View details »</a></p>
             </div><!--/span-->
             <div class="span4">
               <h2>Learning Modules</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p>Need resources to better prepare for the competition? Here is the perfect link for you, whether you are a begineer or an advanced hacker! </p>
               <p><a href="#" class="btn">View details »</a></p>
             </div><!--/span-->
             <div class="span4">
-              <h2>Pcap Repository</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <h2>NetSecRepo</h2>
+              <p>This is your link to access the repository that has all the data collected from the competition </p>
               <p><a href="#" class="btn">View details »</a></p>
             </div><!--/span-->
           </div><!--/row-->
 		</div><!--/span9-->
+        
+    
+
+
       <hr>
 
+
       <footer>
-        <p>&copy; Communications Systems Center 2012</p>
+        <p>&copy; Communications Systems Center 2013</p>
       </footer>
 
     </div><!--/.fluid-container-->

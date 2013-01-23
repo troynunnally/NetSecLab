@@ -38,6 +38,11 @@ class Site extends CI_Controller {
 		$this->load->view('faq_view');
 	}
 	
+	public function contact()
+	{
+		$this->load->view('contact_view');
+	}
+	
 	public function presurvey()
 	{
 		$this->load->view('presurvey_view');

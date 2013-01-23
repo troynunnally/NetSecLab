@@ -62,7 +62,7 @@ display:block;
 }
 
 article section, #newsletter {
-background:url(images/border.gif) repeat-x left bottom;
+background:url(frontend/assets/images/border.gif) repeat-x left bottom;
 margin:0 0 40px 0;
 padding:0 0 45px 0;
 overflow:auto;
@@ -82,7 +82,7 @@ overflow:hidden;
 }
 
 #content .inner {
-background:url(images/border.gif) repeat-x left bottom;
+background:url(frontend/assets/images/border.gif) repeat-x left bottom;
 margin:0 auto 30px auto;
 padding:0 0 35px 0;
 }
@@ -393,7 +393,7 @@ text-align:center;
 }
 
 #newsletter h2 {
-background:url(images/sprite.png) no-repeat -1px -175px;
+background:url(frontend/assets/images/sprite.png) no-repeat -1px -175px;
 font-size:170%;
 color:#fff;
 padding:23px 0 20px 70px;
@@ -510,7 +510,7 @@ margin:0 auto;
 }
 
 #banner_image img#image_bottom {
-margin-top:-10px;
+margin-top:17px;
 }
 
 #banner ul {
@@ -518,7 +518,7 @@ margin:20px 0 20px 0;
 }
 
 #banner li {
-background:url(images/sprite.png) no-repeat -1px -79px;
+background:url(frontend/assets/images/sprite.png) no-repeat -1px -79px;
 font-weight:bold;
 padding:7px 0 7px 35px;
 }
@@ -558,7 +558,7 @@ margin:20px 0 20px 30px;
 }
 
 #description ul li {
-background:url(images/sprite.png) no-repeat -1px -19px;
+background:url(frontend/assets/images/sprite.png) no-repeat -1px -19px;
 padding:6px 0 6px 28px;
 }
 
@@ -621,7 +621,7 @@ border-bottom-left-radius:5px;
 }
 
 .lbLoading {
-background:#fff url(images/controls/loading.gif) no-repeat center;
+background:#fff url(frontend/assets/images/controls/loading.gif) no-repeat center;
 }
 
 #lbImage {
@@ -643,7 +643,7 @@ left:0;
 }
 
 #lbPrevLink:hover {
-background:transparent url(images/controls/arrow_left.png) no-repeat 0 47%;
+background:transparent url(frontend/assets/images/controls/arrow_left.png) no-repeat 0 47%;
 }
 
 #lbNextLink {
@@ -651,7 +651,7 @@ right:0;
 }
 
 #lbNextLink:hover {
-background:transparent url(images/controls/arrow_right.png)  no-repeat 100% 47%;
+background:transparent url(frontend/assets/images/controls/arrow_right.png) no-repeat 100% 47%;
 }
 
 #lbBottom {
@@ -660,7 +660,7 @@ text-align:center;
 }
 
 #lbCloseLink {
-background:url(images/controls/close.png) no-repeat;
+background:url(frontend/assets/images/controls/close.png) no-repeat;
 width:30px;
 height:30px;
 display:block;
@@ -695,7 +695,7 @@ margin:15px 20px 15px 0;
 /* 6.5 Testimonials */
 
 blockquote {
-background:url(images/bg_quote.png) no-repeat left top;
+background:url(frontend/assets/images/bg_quote.png) no-repeat left top;
 }
 
 blockquote footer {
@@ -740,7 +740,7 @@ display:inline;
 /* 6.6 Newsletter */
 
 #newsletter_inner {
-background:url(images/sprite.png) no-repeat 415px -461px #004c7c;
+background:url(frontend/assets/images/sprite.png) no-repeat 415px -461px #004c7c;
 height:80px;
 border-radius:5px;
 -webkit-border-radius:5px;
@@ -872,7 +872,7 @@ position:relative;
 }
 
 .pricing_header {
-background:url(images/bg_pricing_block.png) no-repeat 0 140px #666666;
+background:url(frontend/assets/images/bg_pricing_block.png) no-repeat 0 140px #666666;
 height:160px;
 color:#fff;	
 padding:0 0 15px 0;
@@ -963,7 +963,7 @@ border:none;
 }
 
 #badge {
-background:url(images/badges/badge_bestvalue.png) no-repeat left top;
+background:url(frontend/assets/images/badges/badge_bestvalue.png) no-repeat left top;
 float:right;
 width:58px; 
 height:58px;
@@ -1013,23 +1013,23 @@ filter:alpha(opacity=70);
 }
 
 #facebook {
-background:url(images/sprite.png) no-repeat 0 -297px;
+background:url(frontend/assets/images/sprite.png) no-repeat 0 -297px;
 }
 
 #googleplus {
-background:url(images/sprite.png) no-repeat 0 -327px;
+background:url(frontend/assets/images/sprite.png) no-repeat 0 -327px;
 }
 
 #twitter {
-background:url(images/sprite.png) no-repeat 0 -360px;
+background:url(frontend/assets/images/sprite.png) no-repeat 0 -360px;
 }
 
 #stumbleupon {
-background:url(images/sprite.png) no-repeat 0 -392px;
+background:url(frontend/assets/images/sprite.png) no-repeat 0 -392px;
 }
 
 #feedback {
-background:url(images/sprite.png) no-repeat 0 -427px;
+background:url(frontend/assets/images/sprite.png) no-repeat 0 -427px;
 }
 
 /* 7.1 Contact form */
@@ -1125,7 +1125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c54200', end
 }
 
 #contact_close {
-background:url(images/controls/close.png) no-repeat;
+background:url(frontend/assets/images/controls/close.png) no-repeat;
 width:30px;
 height:30px;
 display:block;
@@ -1204,7 +1204,7 @@ margin:0 10px 0 0;
 }
 
 .scrollup{
-background:url(images/sprite.png) no-repeat -91px -349px;
+background:url(frontend/assets/images/sprite.png) no-repeat -91px -349px;
 width:40px;
 height:40px;
 opacity:0.3;
