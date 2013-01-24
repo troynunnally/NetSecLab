@@ -21,6 +21,16 @@ class Login extends CI_Controller {
 	{
 		$this->load->view('login_view');
 	}
+	public function check()
+	{
+		$this->load->view('check_login');
+	}
+	public function logout()
+	{
+		$this->load->view('logout');
+	}
+	
+
 }
 
 /* End of file welcome.php */

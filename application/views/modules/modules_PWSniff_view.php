@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>NetSecLab</title>
+    <title>NetSecLab Module</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -48,7 +48,7 @@
               <a href="<?=base_url();?>index.php/login/logout" class="navbar-link">logout</a>
             </p>
             <ul class="nav">
-              <li class="active"><a href="<?=base_url();?>index.php/site">Home</a></li>
+              <li><a href="<?=base_url();?>index.php/site">Home</a></li>
               <li><a href="<?=base_url();?>index.php/site/about">About</a></li>
               <li><a href="<?=base_url();?>index.php/site/contact">Contact</a></li>
             </ul>
@@ -58,37 +58,17 @@
     </div>
     <?php include_once('header.php'); ?>
         <div class="span9">
-          <div class="hero-unit">
-            <h1>Welcome to NetSeclab!</h1>
-            <p> The purpose of this lab is two fold: harden Linux and to compromise other computers on the lab network. Points is given according to the level of compromise achieved on other boxes and the completion of modules. A report will be required on Wednesday, April 17th for a grade and a bonus given for a high score during the competition. There will be two in-lab competitions: April 8th and 10th. On each date, all teams will be given one hour concurrently to attempt to compromise the other computers including the other teams.</p>
-            <p><a class="btn btn-primary btn-large" href="<?=base_url();?>index.php/site/overview">Learn more &raquo;</a></p>
-          </div>
-          
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Competition</h2>
-              <p>This link includes all the information, documentation and rules required for the competition. Click here to find out more about how to participate and maximize your experience during this journey!</p>
-              
-              <p><a href="<?=base_url();?>index.php/site/overview" class="btn">View details »</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Learning Modules</h2>
-              <p>Need resources to better prepare for the competition? Here is the perfect link for you, whether you are a begineer or an advanced hacker! </p>
-              <p><a href="<?=base_url();?>index.php/modules/" class="btn">View details »</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>NetSecRepo</h2>
-              <p>This is your link to access the repository that has all the data collected from the competition </p>
-              <p><a href="<?=base_url();?>index.php/repo/" class="btn">View details »</a></p>
-            </div><!--/span-->
-          </div><!--/row-->
+          <h2>Password Sniffing</h2>
+          <p><b>Definition</b> - Password sniffing is particularly a threat for users who log into Unix systems over a network. Telnet or rlogin is usually employed when logging onto a Unix systems over a network. Telnet and rlogin do not encrypt passwords. As a result, when a user enters in his or her password, it is transmitted in the clear, meaning anyone monitoring the network can read it. In contrast, both Novel and Windows NT workstations encrypt passwords for transmission. </p>
+			
+<i><u>Sources:</u></i> <a href="http://sourcedaddy.com/networking/sniffing.html" target="_blank">http://sourcedaddy.com/networking/sniffing.html</a> <br>
+<i><u>Examples:</u></i> <a href="http://www.youtube.com/watch?v=hgc7OvFL80Y" target="_blank">http://www.youtube.com/watch?v=hgc7OvFL80Y</a><br>
+<a href="http://www.youtube.com/watch?v=MzkgF611eD8" target="_blank">http://www.youtube.com/watch?v=MzkgF611eD8</a><br>
+<a href="http://www.youtube.com/watch?v=ZHR7rxl6xYk" target="_blank">http://www.youtube.com/watch?v=ZHR7rxl6xYk</a><br>
+
+		</div><!--/row-->
 		</div><!--/span9-->
-        
-    
-
-
       <hr>
-
 
       <footer>
         <p>&copy; Communications Systems Center 2013</p>

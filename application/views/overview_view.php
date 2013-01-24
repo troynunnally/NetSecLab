@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <title>About NetSecLab</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -34,8 +34,7 @@
   </head>
 
   <body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -43,49 +42,23 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">NetSecLab</a>
+          <a class="brand" href="<?=base_url();?>index.php/site">NetSecLab</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              <a href="<?=base_url();?>index.php/login" class="navbar-link">Login</a>
+              <a href="<?=base_url();?>index.php/login/logout" class="navbar-link">logout</a>
             </p>
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="<?=base_url();?>index.php/site">Home</a></li>
+              <li class="active"><a href="<?=base_url();?>index.php/site/about">About</a></li>
+              <li><a href="<?=base_url();?>index.php/site/contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
 
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span3">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Documentation</li>
-              <li class="active"><a href="#">Link</a></li>
-              <li><a href="#">Overview</a></li>
-              <li><a href="#">Rules</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Modules</li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Start Modules</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Network Security Repo</li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-              <li class="nav-header">Publications</li>
-              <li><a href="#assets/files/Design_of_NetSecLab.pdf">Design of NetSecLab</a></li>
-              <li><a href="#">Link</a></li>
-              <li><a href="#">Link</a></li>
-            </ul>
-          </div><!--/.well -->
-        </div><!--/span-->
+   
+    <?php include_once('header.php'); ?>
         <div class="span9">
          
 
@@ -108,7 +81,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Company 2012</p>
+        <p>&copy; Communications Systems Center 2013</p>
       </footer>
 
     </div><!--/.fluid-container-->

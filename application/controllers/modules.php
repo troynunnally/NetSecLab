@@ -23,10 +23,37 @@ class Modules extends CI_Controller {
 		$this->load->view('modules/modules_about_view');
 	}
 	
-	public function start()
+	public function MITM()
 	{
-		$this->load->view('modules/modules_start_view');
+		$this->load->view('modules/modules_MITM_view');
 	}
+	public function DNS()
+	{
+		$this->load->view('modules/modules_DNS_view');
+	}
+	public function ARP()
+	{
+		$this->load->view('modules/modules_ARP_view');
+	}
+	public function Buffer()
+	{
+		$this->load->view('modules/modules_Buffer_view');
+	}
+	public function PWSniff()
+	{
+		$this->load->view('modules/modules_PWSniff_view');
+	}
+	public function Port()
+	{
+		$this->load->view('modules/modules_Port_view');
+	}
+	public function Mysql()
+	{
+		$this->load->view('modules/modules_Mysql_view');
+	}
+	
+	
+	
 	
 }
 

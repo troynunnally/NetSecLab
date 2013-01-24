@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Sign in &middot; Twitter Bootstrap</title>
+    <title>Sign-in &middot; NetSecLab</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -61,16 +61,15 @@
 
     <div class="container">
 
-      <form class="form-signin">
-        <h2 class="form-signin-heading">NetSecLab Signin</h2>
-        <input type="text" class="input-block-level" placeholder="Email address">
-        <input type="password" class="input-block-level" placeholder="Password">
+      <form class="form-signin" method="post" action="login/check">
+        <h2 class="form-signin-heading">Sign-in</h2>
+        <input type="text" class="input-block-level" id="myusername" name="myusername" placeholder="Username">
+        <input type="password" class="input-block-level" id="mypassword" name="mypassword" placeholder="Password">
         <label class="checkbox">
           <input type="checkbox" value="remember-me"> Remember me
         </label>
         <button class="btn btn-large btn-primary" type="submit">Sign in</button>
       </form>
-      <a href="<?=base_url();?>index.php/site">Skip</a>
 
     </div> <!-- /container -->
 

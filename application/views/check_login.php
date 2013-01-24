@@ -1,6 +1,11 @@
 <?php
 //HTML code
-include("configuration.php");
+$username = 'root';
+$password = 'root';
+$host = 'localhost';
+$database  = 'users';
+$passwordtable = 'users';
+$redirectURL = '/index.php/site';
 //SQL credentials
 /*
 	Get Username POST data
@@ -8,7 +13,7 @@ include("configuration.php");
 if(isset($_POST['myusername'])) {
 	$myusername=$_POST['myusername'];
 } else {
-	die("$registration_redirect Please enter your username <br /> $registration_back_button </body></html>"); //Redirect, error message, back button
+	die(" Please enter your username <br /> </body></html>"); //Redirect, error message, back button
 }
 
 /*
@@ -59,7 +64,7 @@ if($count==1) {
 		<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 		<html>
 		<head>
-		<meta http-equiv="REFRESH" content="3;url=login.php"></HEAD>   
+		<meta http-equiv="REFRESH" content="3;url=/index.php/login"></HEAD>   
 		<BODY>
 		Invalid/ wrong username or password... <br> Please try again. You will be redirected in 3 seconds.
 		</BODY>
@@ -68,7 +73,5 @@ if($count==1) {
 /*
 	Done with MySQL, closing connection
 */
-$thead_id = mysqli_thread_id($link);
-mysqli_kill($link, $thread_id);
 mysqli_close($link);
 ?>

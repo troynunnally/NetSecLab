@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/netseclab/';
+$config['base_url']	= 'http://localhost/';
 //$config['base_url']	= '';
 
 /*
@@ -361,3 +361,6 @@ $config['proxy_ips'] = '';
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
+
+
+

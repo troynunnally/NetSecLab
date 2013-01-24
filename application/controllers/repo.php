@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Site extends CI_Controller {
+class Repo extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,43 +20,8 @@ class Site extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('home_view');
+		$this->load->view('repo/repo_about_view');
 	}
-	
-	public function overview()
-	{
-		$this->load->view('overview_view');
-	}
-	
-	public function rules()
-	{
-		$this->load->view('rules_view');
-	}
-	
-	public function faq()
-	{
-		$this->load->view('faq_view');
-	}
-	
-	public function contact()
-	{
-		$this->load->view('contact_view');
-	}
-	
-	public function presurvey()
-	{
-		$this->load->view('presurvey_view');
-	}
-	public function about()
-	{
-		$this->load->view('overview_view');
-	}
-	public function report()
-	{
-		$this->load->view('report_view');
-	}
-
-
 	
 }
 

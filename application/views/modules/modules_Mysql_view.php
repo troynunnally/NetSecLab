@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>NetSecLab</title>
+    <title>NetSecLab Module</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -48,7 +48,7 @@
               <a href="<?=base_url();?>index.php/login/logout" class="navbar-link">logout</a>
             </p>
             <ul class="nav">
-              <li class="active"><a href="<?=base_url();?>index.php/site">Home</a></li>
+              <li><a href="<?=base_url();?>index.php/site">Home</a></li>
               <li><a href="<?=base_url();?>index.php/site/about">About</a></li>
               <li><a href="<?=base_url();?>index.php/site/contact">Contact</a></li>
             </ul>
@@ -58,37 +58,19 @@
     </div>
     <?php include_once('header.php'); ?>
         <div class="span9">
-          <div class="hero-unit">
-            <h1>Welcome to NetSeclab!</h1>
-            <p> The purpose of this lab is two fold: harden Linux and to compromise other computers on the lab network. Points is given according to the level of compromise achieved on other boxes and the completion of modules. A report will be required on Wednesday, April 17th for a grade and a bonus given for a high score during the competition. There will be two in-lab competitions: April 8th and 10th. On each date, all teams will be given one hour concurrently to attempt to compromise the other computers including the other teams.</p>
-            <p><a class="btn btn-primary btn-large" href="<?=base_url();?>index.php/site/overview">Learn more &raquo;</a></p>
-          </div>
-          
-          <div class="row-fluid">
-            <div class="span4">
-              <h2>Competition</h2>
-              <p>This link includes all the information, documentation and rules required for the competition. Click here to find out more about how to participate and maximize your experience during this journey!</p>
-              
-              <p><a href="<?=base_url();?>index.php/site/overview" class="btn">View details »</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>Learning Modules</h2>
-              <p>Need resources to better prepare for the competition? Here is the perfect link for you, whether you are a begineer or an advanced hacker! </p>
-              <p><a href="<?=base_url();?>index.php/modules/" class="btn">View details »</a></p>
-            </div><!--/span-->
-            <div class="span4">
-              <h2>NetSecRepo</h2>
-              <p>This is your link to access the repository that has all the data collected from the competition </p>
-              <p><a href="<?=base_url();?>index.php/repo/" class="btn">View details »</a></p>
-            </div><!--/span-->
-          </div><!--/row-->
+          <h2>Mysql Injection</h2>
+          <p><b>Definition</b> - SQL injection is probably the most abundant programming flaw that exists on the internet at present. It is the vulnerability through which unauthorized person can access the various critical and private dat. SQL injection is not a flaw in the web or db server but but is a result of the poor and inexperienced programming practices. And it is one of the deadliest as well as easiest attacks to execute from remote location. </p>
+		  <p>In SQL injection, we interact with DB server with the various commands and get various data from it. In this tutorial, I would be discussing 3 aspects of SQL injection namely bypassing logins, accessing the secret data and modifying the page contents. </p>
+		  <p><b>Bypassing Logins:</b> Suppose, a site has a login form & only the registered users are allowed to enter the site. Now, say u wanted to bypass the login and enter the site as the legitimate user. If the programmer does not properly sanitize the login script, you may have luck to enter the site. U might be able to login into the site without knowing the real username and real password by just interacting with the DB server. </p>	
+			
+<i><u>Sources:</u></i> <a href="http://www.go4expert.com/forums/showthread.php?t=20438" target="_blank">http://sourcedaddy.com/networking/sniffing.html</a> <br>
+<i><u>Examples:</u></i> <a href="http://www.youtube.com/watch?v=xeuWST_KOyg" target="_blank">http://www.youtube.com/watch?v=xeuWST_KOyg</a><br>
+<a href="http://www.youtube.com/watch?v=LS8R353ynUE" target="_blank">http://www.youtube.com/watch?v=LS8R353ynUE</a><br>
+<a href="http://www.youtube.com/watch?v=7H358PrFagc" target="_blank">http://www.youtube.com/watch?v=7H358PrFagc</a><br>
+
+		</div><!--/row-->
 		</div><!--/span9-->
-        
-    
-
-
       <hr>
-
 
       <footer>
         <p>&copy; Communications Systems Center 2013</p>

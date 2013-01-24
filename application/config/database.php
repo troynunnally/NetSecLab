@@ -48,10 +48,28 @@
 $active_group = 'default';
 $active_record = TRUE;
 
+/*
+|--------------------------------------------------------------------------
+| Login Script Configuration
+|--------------------------------------------------------------------------
+|
+| This is for the login script to connect to the SQL database. The database sould be
+| set up as follows: 3 columns --> userid, pass, email
+|
+*/
+
+$username = 'root';
+$password = 'root';
+$host = 'localhost';
+$database  = 'users';
+$passwordtable = 'users';
+$redirectURL = 'site'; 
+
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['username'] = 'root';
+$db['default']['password'] = 'root';
+$db['default']['database'] = 'users';
+$db['default']['pwtable'] = 'users';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
