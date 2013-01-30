@@ -6,15 +6,15 @@
             <ul class="nav nav-list">
               <li class="nav-header">Documentation</li>
               <li><a href="<?=base_url();?>index.php/site/overview">About</a></li>
+              <li><a href="<?=base_url();?>index.php/site/dates">Competition Dates</a></li>
               <li><a href="<?=base_url();?>index.php/site/rules">Rules</a></li>
               <li><a href="<?=base_url();?>index.php/site/report">Report</a></li>
-              <li><a href="<?=base_url();?>index.php">Registration</a></li>
+              <li><a href="<?=base_url();?>index.php/site/registration">Registration</a></li>
               <li><a href="<?=base_url();?>assets/files/NetSecLab.ppt">Presentation Powerpoint</a></li>
               <li><a href="<?=base_url();?>index.php/site/faq">Frequently Asked Questions (FAQ) </a></li>
               
               <li class="nav-header">Modules</li>
               <li><a href="<?=base_url();?>index.php/modules/">About Modules</a></li>
-              <li><a href="<?=base_url();?>index.php/modules/start">Start Modules</a></li>
               <li><a href="<?=base_url();?>index.php/modules/">Upload Modules</a></li>
               <li class="nav-header">Network Security Repo</li>
               <li><a href="<?=base_url();?>index.php/repo/">About</a></li>

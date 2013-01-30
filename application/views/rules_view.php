@@ -76,7 +76,18 @@ else { document.getElementById(d).style.display = "none"; }
             Points are assigned according to the level of compromise achieved on other boxes. There will be two in-lab competitions and all teams would be given one hour to attempt to compromise the other computers. <br><br>
             Click on each category to see the respective rules.
             </p>
-            <ul>
+
+            <li>
+			 <a href="javascript:ReverseDisplay('uniquename9')"><b> <u> General Important Rules </b> </u></a>
+			<div id="uniquename9" style="display:none;"><ul>
+			<li> Competition in a private network, outside connection not allowed
+			<li> Primary subnet: 192.168.100.0/24
+			<li> Install Linux OS from provided CD.  Do not install a later operating system on your team's external hard drive. 
+			<li> IP # will be received on competition day 1
+			</ul>
+			</div>
+            
+            
             
             <li>
             <a href="javascript:ReverseDisplay('uniquename')"><b> <u> Hard Drive and Machine Access: </b> </u></a>
@@ -104,9 +115,22 @@ else { document.getElementById(d).style.display = "none"; }
             MySQL does not have to be available via the network, but the contents should be accessible via the webpage interface, phpMyAdmin.
             </div>
             
+            <li>
+			<a href="javascript:ReverseDisplay('uniquename10')"><b> <u> Important Rules to be remembered</b> </u></a>
+			<div id="uniquename10" style="display:none;"><ul>
+			<li>Attackers should not change victims' passwords unless needed for a compromise, and then it should be reset back to the original password.
+			<li>No denial of service attacks, rate throttle your nmaps (no -T4).
+			<li>Services on the team and victim should remain up and active throughout the competition. <li>Services should not be turned off by the defender or the attacker (unless momentarily necessary for a compromise or defence). The service should still be available for legitimate use.
+			<li>Absolutely no deleting of logs (yours or others). They are precious as gold when writing the report.
+			<li>No arp poisoning. It is not needed since we will use a hub. Since we have ten teams we cannot support teams doing arp poisoning
+			<li>No kernel modification
+			<li>No breaking into traffic generator 
+			</ul>
+			</div>
+            
             <li> 
             <a href="javascript:ReverseDisplay('uniquename3')"><b> <u> Points: </b> </u></a>
-            <div id="uniquename3" style="display:none;">Points are assigned by the level of compromise each team is able to perform to the network. Do note that efficiency and creativity are given bonuses (but it's impossible to outline them here). We want people to think up and implement new ways of exploiting machines and will reward such efforts in any way we can.
+            <div id="uniquename3" style="display:none;">Points are assigned by the level of compromise each team is able to perform to the network. Do note that efficiency and creativity are given bonuses (but it?s impossible to outline them here). We want people to think up and implement new ways of exploiting machines and will reward such efforts in any way we can.
             <br>The target goals and points provided for each in this competition are as follows: </br>
             <ul>
             <li>Mapping the network (2 pts. per ip)
@@ -117,6 +141,7 @@ else { document.getElementById(d).style.display = "none"; }
             <li>Gaining root access to a victim box and retrieving the shadow hash file (150 pts.)
             <li>Gaining root access to a team box and retrieving the shadow hash file (250 pts.)
             </ul>
+            </div>
             
             <a href="javascript:ReverseDisplay('uniquename4')"><li> <b> <u> Time Bonus:</b> </u></a>
             <div id="uniquename4" style="display:none;">Additional points given for time to complete all of the above goals according to the time table below: 
@@ -131,9 +156,21 @@ else { document.getElementById(d).style.display = "none"; }
             
             <a href="javascript:ReverseDisplay('uniquename5')"><li> <b> <u> Victim Boxes:</b> </u></a>
             <div id="uniquename5" style="display:none;">Along with all the participants on the network, there will be additional 'victim boxes.'  These boxes are operating systems with various levels of hardening that are just waiting to be exploited.  Some will be full of holes, some will look very similar to the operating systems the participants receive, and some will be close to commercial products.  Points will be awarded for each exploited box based on the difficulty of the exploit.</div>
-            
-            
+			
+			
+
+			<li> 
+			<a href="javascript:ReverseDisplay('uniquename11')"><b> <u> Logistics </b> </u></a>
+            <div id="uniquename11" style="display:none;">
+            <ul>
+            <li>Installation CDs will be provided.
+            <li>External HDs will be distributed to each team captain: Please use the keys in KACB 2446 to lock the drive in place. 
+            <li>Keep an eye on your HW all times.
+            <li>You can sit down at any computer you like. Please remember there are 2 other classes utilizing the same space.
+            <li>Internet access in the lab limited. There are computers on back row (not connected to exercise network) and crossover cables are also available in the lab for PC hookup.
+			</ul>
 			</div>
+
 
 
 

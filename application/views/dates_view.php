@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>NetSecLab FAQ</title>
+    <title>NetSecLab Rules</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -31,6 +31,18 @@
       <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=base_url();?>assets/ico/apple-touch-icon-72-precomposed.png">
                     <link rel="apple-touch-icon-precomposed" href="<?=base_url();?>assets/ico/apple-touch-icon-57-precomposed.png">
                                    <link rel="shortcut icon" href="<?=base_url();?>assets/ico/favicon.png">
+  <script type="text/javascript" language="JavaScript"><!--
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+</script>
   </head>
 
   <body>
@@ -58,30 +70,36 @@
     </div>
     <?php include_once('header.php'); ?>
         <div class="span9">
-        <h2> <u> Frequently Asked Questions </u> </h2>
-<ol>
-<li> Where can I find a list of how points would be awarded?
-<br/> Answer: Click on Scoring Rules under Rules.
-</li>
-<li> What are the services each server be connected to?
-<br/> Answer: Click on Services under Rules
-</li>
-<li> Where can I register for the competition?
-<br/> Answer: Click on the registration tab in the left corner under Documentation
-</li>
-<li> Why should I fill the surveys?
-<br/> Answer: It is important to fill the pre-competition survey so that we can take your inputs and make sure the competition is in accordance to everyone's competancy level.
-</li>
-<li> I need help. Who can I contact?
-<br/> Answer: It would be best to contact the TA. For more information, click on the Contact tab at the top of the webpage.
-</li>
-          
-		</div><!--/span9-->
-		</div><!--/row-->
+         
+      		<h1> <u> Competition Days </u> </h1>
+<ul>
+<li> <b> Preparation Interval </b>
+<br/>Feb 18-April 8, 2012
+<br/>
+<li> <b>Competition Day 1</b>
+<br/>April 8, 9-10 a.m., KACB 2446
+<br/>
+<li> <b>Competition Day 2</b>
+<br/>April 10, 9-10 a.m., KACB 2446
+<br/>
+<li> <b> Reports Due: </b> Monday April 15
+<br/>
+<li> <b> In-class Presentation: </b>
+<ul> <li> Mentors,  Monday Feb 18  
+<li> All teams,  Monday March 4
+<li> Teams 1-3,  Monday April 15
+<li> Teams 4-6,  Wednesday April 17
+<li> Teams 7-8,  Friday April 19
+</ul>
+</ul>
+                 
+        </div><!--/span-->
+      </div><!--/row-->
+
       <hr>
 
       <footer>
-        <p>&copy; Communications Systems Center 2012</p>
+        <p>&copy; Communications Systems Center 2013</p>
       </footer>
 
     </div><!--/.fluid-container-->

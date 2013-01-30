@@ -55,6 +55,14 @@ class Site extends CI_Controller {
 	{
 		$this->load->view('report_view');
 	}
+	public function dates()
+	{
+		$this->load->view('dates_view');
+	}
+	public function registration()
+	{
+		$this->load->view('registration_view');
+	}
 
 
 	
