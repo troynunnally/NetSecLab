@@ -61,7 +61,7 @@
           <div class="hero-unit">
             <h1>Welcome to NetSeclab!</h1>
             <p> The purpose of this lab is two fold: harden Linux and to compromise other computers on the lab network. Points is given according to the level of compromise achieved on other boxes and the completion of modules. A report will be required on Wednesday, April 17th for a grade and a bonus given for a high score during the competition. There will be two in-lab competitions: April 8th and 10th. On each date, all teams will be given one hour concurrently to attempt to compromise the other computers including the other teams.</p>
-            <p><a class="btn btn-primary btn-large" href="<?=base_url();?>index.php/site/overview">Learn more &raquo;</a></p>
+            
           </div>
           
           <div class="row-fluid">

@@ -1,8 +1,8 @@
 <?php
 //HTML code
-$username = 'root';
-$password = 'root';
-$host = 'localhost';
+$username = 'netseclab';
+$password = 'o92bd7Bkj&';
+$host = 'web-db5.gatech.edu';
 $database  = 'users';
 $passwordtable = 'users';
 $redirectURL = '/index.php/site';

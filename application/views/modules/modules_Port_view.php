@@ -58,20 +58,7 @@
     </div>
     <?php include_once('header.php'); ?>
         <div class="span9">
-          <h2>Port Scanning</h2>
-          <p><b>Definition</b> - Prior to sniffing a network an attacker has to gain access. Attackers gain access by scanning devices on the network for vulnerabilities, then exploiting them. Port scanning can either be targeted or random. An attacker interested in a particular network will attempt to track down information about that network and scan for vulnerabilities. Alternatively, attackers will put large netblocks into a port scanner and let it run for days, trying to find any machine that is available and able to be exploited. This highlights the difference between an attacker and a script kiddie. </p>
-		  <p><b>Note:</b> A knowledgeable attacker is looking for specific information; a script kiddie simply wants to destroy things.
-A tool commonly used for port scanning is nmap (<a href="http://www.insecure.org/nmap/" target="_blank">www.insecure.org/nmap/</a>). It allows users to enter a range of IP addresses, choose the type of scan desired, and let the program run in the background. When it has completed its sweep it will produce a report, showing the ports that responded, on each network device:
-</p>	
-<p><code>[root]# nmap -sT www.datacenterwire.com<br> Starting nmap V. 2.99RC2 ( www.insecure.org/nmap/ ) <br>Interesting ports on (66.150.201.102): (The 1589 ports scanned but not shown below are in state: closed) <br>Port State Service <br>21/tcp open<br> ftp 22/tcp open<br> ssh 25/tcp open<br> smtp 53/tcp open<br> domain 80/tcp open<br> http 81/tcp open<br> hosts2-ns 110/tcp open<br> pop-3 443/tcp open<br> https 587/tcp open<br> submission 3306/tcp open<br> mysql 5432/tcp open<br> postgres 10000/tcp open<br> snet-sensor-mgmt Nmap run completed -- 1 IP address (1 host up) scanned in 48 seconds</code></p>
-<p>Nmap can be configured to scan all TCP and User Datagram Protocol (UDP) ports, or just the ports that generally have services running on them. Using the information collected in the example, notice there were 12 out of 1,589 scanned ports responding on the server.</p>
-<p>Once the list of ports and host names has been compiled, the next step is to try to exploit weaknesses in the various server configurations. This involves knowing what the weaknesses of the different servers are and exploiting those weaknesses.</p>	
-			
-<i><u>Sources:</u></i> <a href="http://sourcedaddy.com/networking/sniffing.html" target="_blank">http://sourcedaddy.com/networking/sniffing.html</a> <br>
-<i><u>Examples:</u></i> <a href="http://www.youtube.com/watch?v=hgc7OvFL80Y" target="_blank">http://www.youtube.com/watch?v=hgc7OvFL80Y</a><br>
-<a href="http://www.youtube.com/watch?v=MzkgF611eD8" target="_blank">http://www.youtube.com/watch?v=MzkgF611eD8</a><br>
-<a href="http://www.youtube.com/watch?v=ZHR7rxl6xYk" target="_blank">http://www.youtube.com/watch?v=ZHR7rxl6xYk</a><br>
-
+          <iframe src="http://docs.google.com/gview?url=<?=base_url();?>assets/files/PDFs/PortScanning.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
 		</div><!--/row-->
 		</div><!--/span9-->
       <hr>

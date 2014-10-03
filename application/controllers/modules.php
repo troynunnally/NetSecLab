@@ -47,6 +47,10 @@ class Modules extends CI_Controller {
 	{
 		$this->load->view('modules/modules_Port_view');
 	}
+	public function MACSpoof()
+	{
+		$this->load->view('modules/modules_MAC_view');
+	}
 	public function Mysql()
 	{
 		$this->load->view('modules/modules_Mysql_view');

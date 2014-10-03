@@ -58,14 +58,7 @@
     </div>
     <?php include_once('header.php'); ?>
         <div class="span9">
-          <h2>Password Sniffing</h2>
-          <p><b>Definition</b> - Password sniffing is particularly a threat for users who log into Unix systems over a network. Telnet or rlogin is usually employed when logging onto a Unix systems over a network. Telnet and rlogin do not encrypt passwords. As a result, when a user enters in his or her password, it is transmitted in the clear, meaning anyone monitoring the network can read it. In contrast, both Novel and Windows NT workstations encrypt passwords for transmission. </p>
-			
-<i><u>Sources:</u></i> <a href="http://sourcedaddy.com/networking/sniffing.html" target="_blank">http://sourcedaddy.com/networking/sniffing.html</a> <br>
-<i><u>Examples:</u></i> <a href="http://www.youtube.com/watch?v=hgc7OvFL80Y" target="_blank">http://www.youtube.com/watch?v=hgc7OvFL80Y</a><br>
-<a href="http://www.youtube.com/watch?v=MzkgF611eD8" target="_blank">http://www.youtube.com/watch?v=MzkgF611eD8</a><br>
-<a href="http://www.youtube.com/watch?v=ZHR7rxl6xYk" target="_blank">http://www.youtube.com/watch?v=ZHR7rxl6xYk</a><br>
-
+          <iframe src="http://docs.google.com/gview?url=<?=base_url();?>assets/files/PDFs/PassSniff.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
 		</div><!--/row-->
 		</div><!--/span9-->
       <hr>

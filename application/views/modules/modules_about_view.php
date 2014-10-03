@@ -61,7 +61,6 @@
           <div class="hero-unit">
             <h1>Welcome to NetSeclab!</h1>
             <p>In preparation for the competition, the students will acquire and/or improve their knowledge in Network and Security by completing the following modules. Students will gain points after completion of each module. These points are calculated based on the complexity of the modules, and are counted towards the competition scores. </p>
-            <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
           </div>
           <div class="row-fluid">
             <div class="span4">
@@ -92,12 +91,18 @@
               <p><a class="btn" href="<?=base_url();?>index.php/modules/PWSniff">View details &raquo;</a></p>
             </div><!--/span-->
             <div class="span4">
+              <h2>MAC Spoofing</h2>
+              <p>MAC spoofing is a technique for changing a factory-assigned Media Access Control (MAC) address of
+a network interface on a networked device. </p>
+              <p><a class="btn" href="<?=base_url();?>index.php/modules/MACSpoof">View details &raquo;</a></p>
+            </div><!--/span-->
+            </div><!--/row-->
+            <div class="row-fluid">
+            <div class="span4">
               <h2>Port Scanning</h2>
               <p>Prior to sniffing a network an attacker has to gain access. Attackers gain access by scanning devices on the network for vulnerabilities, then exploiting them.</p>
               <p><a class="btn" href="<?=base_url();?>index.php/modules/Port">View details &raquo;</a></p>
             </div><!--/span-->
-            </div><!--/row-->
-          <div class="row-fluid">
               <div class="span4">
               <h2>Mysql Injection</h2>
               <p>SQL injection is probably the most abundant programming flaw that exists on the internet at present. It is the vulnerability through which unauthorized person can access the various critical and private data</p>
